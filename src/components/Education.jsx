@@ -62,6 +62,26 @@ function Education(props) {
                         <h4>09/2014 - 10/2018</h4>
                         <span>CGPA</span>
                         <h4>3.67 / 4.0</h4>
+                        <span>Achievements</span>
+                        <h4>
+                          <ul>
+                            <li>
+                              {" "}
+                              Secured semester scholarship for consecutive 5
+                              semesters{" "}
+                            </li>
+                            <li>
+                              {" "}
+                              Actively particpated and won speed programming
+                              competetions for my department{" "}
+                            </li>
+                            <li>
+                              {" "}
+                              Took the initiative to invite senior alumni for
+                              educating students on software industry
+                            </li>
+                          </ul>
+                        </h4>
                       </Col>
                     </Row>
                   </CardBody>
