@@ -15,6 +15,18 @@ export default function Contact(props) {
         <div className="space-50" />
         <div>
           <Bounce right>
+            <h2
+              style={{
+                textAlign: "justify"
+              }}
+            >
+              Connect me if you think we can learn collaboratively OR i can be
+              of any help to you. We can meet over coffee if you are in Lahore.
+            </h2>
+          </Bounce>
+        </div>
+        <div>
+          <Bounce right>
             <Row>
               <a href="mailto:ubaidrbutt@outlook.com" id="mail">
                 <img
@@ -74,7 +86,7 @@ export default function Contact(props) {
                 Instagram
               </UncontrolledTooltip>
 
-              <a href="https://twitter.com/Firzok" id="twitter">
+              <a href="https://twitter.com/UbaidBu51972367?s=08" id="twitter">
                 <img
                   alt="..."
                   className="contact-icon"
