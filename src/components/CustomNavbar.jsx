@@ -111,7 +111,7 @@ function CustomNavbar(props) {
           <div className="navbar-collapse-header">
             <Row>
               <Col className="collapse-brand" xs="6">
-                <h3>Firzok Nadeem</h3>
+                <h3>Ubaid R Butt</h3>
               </Col>
               <Col className="collapse-close text-right" xs="6">
                 <button
