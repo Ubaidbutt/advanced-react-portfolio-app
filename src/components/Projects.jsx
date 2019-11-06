@@ -154,6 +154,59 @@ function Projects(props) {
               </Card>
             </Bounce>
           </Col>
+          <Col md="4">
+            <Bounce left>
+              <Card className="card-coin card-background shadow-10 card-min-height">
+                <CardTitle className="content-center text-center">
+                  <div className="space-30" />
+                  <h2>Neural Network to predict RUL</h2>
+                  <h3> AlphaBOLD Project </h3>
+                  <div className="space-30" />
+                </CardTitle>
+                <CardBody>
+                  <span>Details</span>
+                  <h5>
+                    Trained a neural network to predict the Remaining useful
+                    life (RUL) of industrial motors. The model was trained on
+                    historical data collected from IOT devices. Data features
+                    included RMS values for currents, temperature, & vibration
+                    telemetries. The feature engineering also included
+                    converting the time signals into fourier domain to feed in
+                    the neural network.
+                    <br /> <br />
+                    <b>Tools: </b> Python, Pandas, Sci-kit learn, Keras,
+                    AzureMachine learning studio
+                  </h5>
+                </CardBody>
+              </Card>
+            </Bounce>
+          </Col>
+
+          <Col md="4">
+            <Bounce left>
+              <Card className="card-coin card-background shadow-10 card-min-height">
+                <CardTitle className="content-center text-center">
+                  <div className="space-30" />
+                  <h2>Bold Archival service</h2>
+                  <h3> AlphaBOLD Project </h3>
+                  <div className="space-30" />
+                </CardTitle>
+                <CardBody>
+                  <span>Details</span>
+                  <h5>
+                    Bold archival service is a back-end utility for integrating
+                    two ERP systems: Microsoft Dynamics CRM and SharePoint. The
+                    application runs on schedule and fetct attachments from CRM
+                    through REST calls. It stores those attachments in
+                    SharePoint specified folders. The folders and file uploading
+                    is done through SharePoint Rest API. The application saves
+                    cloud storage cost. <br /> <br />
+                    <b>Tools: </b> NodeJS, ES-6, SharePoint & Dynamics CRM API's
+                  </h5>
+                </CardBody>
+              </Card>
+            </Bounce>
+          </Col>
 
           <Col md="4">
             <Bounce top>

@@ -62,12 +62,26 @@ function WorkExperience(props) {
                     <span>Details</span>
                     <h5>
                       <ul>
-                        <li>Did XYZ</li>
-                        <li>Did XYZ</li>
-                        <li>Did XYZ</li>
-                        <li>Did XYZ</li>
-                        <li>Did XYZ</li>
-                        <li>Did XYZ</li>
+                        <li>
+                          {" "}
+                          Being the first member of the AI & IOT team, my
+                          responsibility was to help establish the discipline{" "}
+                        </li>
+                        <li>
+                          {" "}
+                          To always remain open and look for opportunities
+                          related to ML/IOT{" "}
+                        </li>
+                        <li>
+                          {" "}
+                          Develop and enhanced existing product related to ERP
+                          integration and provide production support{" "}
+                        </li>
+                        <li>
+                          {" "}
+                          Build MVC's and demo those to existing and potential
+                          customers{" "}
+                        </li>
                       </ul>
                     </h5>
                   </CardBody>
@@ -147,12 +161,38 @@ function WorkExperience(props) {
                         <span>Details</span>
                         <h5>
                           <ul>
-                            <li>Did XYZ</li>
-                            <li>Did XYZ</li>
-                            <li>Did XYZ</li>
-                            <li>Did XYZ</li>
-                            <li>Did XYZ</li>
-                            <li>Did XYZ</li>
+                            <li>
+                              {" "}
+                              Collaborated with the VP of advanced
+                              communications for my final year project{" "}
+                            </li>
+                            <li>
+                              {" "}
+                              Research and analyzed the problem of server
+                              failures in a shared hosted environment{" "}
+                            </li>
+                            <li>
+                              {" "}
+                              After brainstorming the problem with their team,
+                              we proposed a solution to overcome the problem{" "}
+                            </li>
+                            <li>
+                              {" "}
+                              Developed and deployed the solution as a Daemon
+                              process (Window service) to monitor processes and
+                              their resource consumption{" "}
+                            </li>
+                            <li>
+                              {" "}
+                              The application generate email and mobile phone
+                              notifications to the server when a process reached
+                              a resource threshold limit.{" "}
+                            </li>
+                            <li>
+                              {" "}
+                              The solution was able to reduce more than 30% of
+                              the failure rates.{" "}
+                            </li>
                           </ul>
                         </h5>
                       </Col>
