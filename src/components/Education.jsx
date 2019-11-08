@@ -34,7 +34,7 @@ function Education(props) {
                       <a href="http://qau.edu.pk/">
                         <div class="d-flex justify-content-center">
                           <img
-                            alt="National University of Computer and Emerging Sciences"
+                            alt="Quaid-e-Azam University, Islamabad"
                             className="d-block content-center"
                             src={require("../assets/img/qau-logo.jpg")}
                             style={{ width: "200px" }}

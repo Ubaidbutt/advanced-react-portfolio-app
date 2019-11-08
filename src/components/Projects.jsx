@@ -108,21 +108,20 @@ function Projects(props) {
               <Card className="card-coin card-background shadow-10 card-min-height">
                 <CardTitle className="content-center text-center">
                   <div className="space-30" />
-                  <h2 className="text-center">Q/A Chatbot</h2>
-                  <h3> AlphaBOLD project</h3>
+                  <h2 className="text-center">Chatroom for discussion</h2>
+                  <h3> Personal project</h3>
                   <div className="space-30" />
                 </CardTitle>
                 <CardBody>
                   <span>Details</span>
                   <h5>
-                    As part of my job, I took the intiative to explore the
-                    chatbot development frameworks such as Microsoft Bot
-                    framework, Google Dialogflow and RASA. Created an
-                    opportunity for a chatbot with one of our clients, developed
-                    the chatbot for their FAQ (Frequently asked questions) and
-                    integrated with their wordpress site. <br /> <br />
-                    <b>Tools: </b> Microsoft Bot Framework, QnA maker, Cognitive
-                    services, Wordpress
+                    While I was learning about NodeJS, I got interested in real
+                    time communication between client and server. Since Node is
+                    heavily used for real time applications, I started learning
+                    about socket communiction with Node. I build this project
+                    that let's anyone join a chatroom and talk to other people
+                    in the same room. <br /> <br />
+                    <b>Tools: </b> NodeJS, Socket.IO, ES-6
                   </h5>
                 </CardBody>
               </Card>
@@ -134,98 +133,19 @@ function Projects(props) {
               <Card className="card-coin card-background shadow-10 card-min-height">
                 <CardTitle className="content-center text-center">
                   <div className="space-30" />
-                  <h2>Machine learning based Disease Classifier</h2>
-                  <h3> AlphaBOLD Project </h3>
+                  <h2>Portfolio Application in React</h2>
+                  <h3> Personal Project </h3>
                   <div className="space-30" />
                 </CardTitle>
                 <CardBody>
                   <span>Details</span>
                   <h5>
-                    I identified a manual process of data cleansing of one of
-                    the clients related to heart diseases. Prepared the dataset
-                    using webscrapping in Python and trained a Machine learning
-                    model to predict disease names given raw text as input.
-                    Deployed the model as web service in cloud and integrated
-                    that with the ERP system (Dynamics CRM). <br /> <br />
-                    <b>Tools: </b> Python, Pandas, Sci-kit learn, NLTK, Azure
-                    Machine learning studio
-                  </h5>
-                </CardBody>
-              </Card>
-            </Bounce>
-          </Col>
-          <Col md="4">
-            <Bounce left>
-              <Card className="card-coin card-background shadow-10 card-min-height">
-                <CardTitle className="content-center text-center">
-                  <div className="space-30" />
-                  <h2>Neural Network to predict RUL</h2>
-                  <h3> AlphaBOLD Project </h3>
-                  <div className="space-30" />
-                </CardTitle>
-                <CardBody>
-                  <span>Details</span>
-                  <h5>
-                    Trained a neural network to predict the Remaining useful
-                    life (RUL) of industrial motors. The model was trained on
-                    historical data collected from IOT devices. Data features
-                    included RMS values for currents, temperature, & vibration
-                    telemetries. The feature engineering also included
-                    converting the time signals into fourier domain to feed in
-                    the neural network.
-                    <br /> <br />
-                    <b>Tools: </b> Python, Pandas, Sci-kit learn, Keras,
-                    AzureMachine learning studio
-                  </h5>
-                </CardBody>
-              </Card>
-            </Bounce>
-          </Col>
-
-          <Col md="4">
-            <Bounce left>
-              <Card className="card-coin card-background shadow-10 card-min-height">
-                <CardTitle className="content-center text-center">
-                  <div className="space-30" />
-                  <h2>Bold Archival service</h2>
-                  <h3> AlphaBOLD Project </h3>
-                  <div className="space-30" />
-                </CardTitle>
-                <CardBody>
-                  <span>Details</span>
-                  <h5>
-                    Bold archival service is a back-end utility for integrating
-                    two ERP systems: Microsoft Dynamics CRM and SharePoint. The
-                    application runs on schedule and fetct attachments from CRM
-                    through REST calls. It stores those attachments in
-                    SharePoint specified folders. The folders and file uploading
-                    is done through SharePoint Rest API. The application saves
-                    cloud storage cost. <br /> <br />
-                    <b>Tools: </b> NodeJS, ES-6, SharePoint & Dynamics CRM API's
-                  </h5>
-                </CardBody>
-              </Card>
-            </Bounce>
-          </Col>
-
-          <Col md="4">
-            <Bounce top>
-              <Card className="card-coin card-background shadow-10 card-min-height">
-                <CardTitle className="content-center text-center">
-                  <div className="space-30" />
-                  <h2 className="text-center">IOT Gateway</h2>
-                  <h3> AlphaBOLD project </h3>
-                  <div className="space-30" />
-                </CardTitle>
-                <CardBody>
-                  <span>Details</span>
-                  <h5>
-                    Designed and developed an IOT gateway to receive telemetry
-                    data from IoT devices at a rate of 4 messages per
-                    millisecond. The gateway supported two common IOT protocols
-                    (AMQP & MQTT) & stored the data in a MongoDB database.{" "}
-                    <br /> <br />
-                    <b>Tools: </b> NodeJS, MongoDB, Mongoose, AMQP, MQTT
+                    I build a simple portfolio application using React to
+                    understand concepts such as Components, State & Props,
+                    Component Life cycle, etc. This application you are viewing
+                    is not entirely my work, it's taken from the open source &
+                    customized for my own portfolio. <br /> <br />
+                    <b>Tools: </b> ReactJS, ES-6
                   </h5>
                 </CardBody>
               </Card>
